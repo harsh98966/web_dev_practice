@@ -5,13 +5,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website - Wikipedia</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>Website
         <hr>
     </h1>
-    <h4>From Wikipedia, the free encyclopedia</h4>
+
+    <div class="container">
+        <img class="image us_website" src="./images/United_States_Antarctic_Program_website_from_2018_02_22.png"
+            alt="US_Website_image">
+        <div class="caption">The <a href="https://en.wikipedia.org/wiki/United_States_Antarctic_Program">usap.gov</a> website</div>
+    </div>
+    
+   
+    <p>From Wikipedia, the free encyclopedia</p>
 
     <p>
         <em>This article is about websites in general. For the Internet domain
@@ -55,8 +64,8 @@
         a web browser.
     </p>
 
-    <section>
-        <h3>Content</h3>
+    <section class="content">
+        <h3>Contents</h3>
         <ol>
             <li><a href="#history"> History </a></li>
             <li><a href="#overview">Overview</a></li>
@@ -69,26 +78,33 @@
     </section>
 
     <section id="history">
+        
         <h3>History
             <hr>
         </h3>
+        <div class="container">
+            <img class="image image nasa_website" src="./images/NASA_Website_Homepage_-_April_25,_2015.png" alt="240px-NASA_Website_Homepage_-_April_25">
+            <div class="caption">The <a href="https://en.wikipedia.org/wiki/NASA">nasa.gov</a> <a href="https://en.wikipedia.org/wiki/Home_page"> home page </a> in 2015</div>
+        </div>
         <p>The <a href="https://en.wikipedia.org/wiki/World_Wide_Web" title="World Wide Web">World Wide Web</a> (WWW)
             was created in 1989 by the British CERN physicist <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee"
-                title="Tim Berners-Lee">Tim Berners-Lee</a>. On
+            title="Tim Berners-Lee">Tim Berners-Lee</a>. On
             30 April 1993, <a href="https://en.wikipedia.org/wiki/CERN" title="CERN">CERN</a> announced that the World
             Wide Web would be free to use for anyone, contributing to the immense growth of the Web. Before the
             introduction of the <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"
-                title="Hypertext Transfer Protocol">Hypertext Transfer Protocol</a> (HTTP), other protocols such as <a
-                href="https://en.wikipedia.org/wiki/File_Transfer_Protocol" title="File Transfer Protocol">File Transfer
-                Protocol</a> and the <a href="https://en.wikipedia.org/wiki/Gopher_protocol"
-                title="Gopher protocol">gopher protocol</a> were used to retrieve individual files from a server. These
+            title="Hypertext Transfer Protocol">Hypertext Transfer Protocol</a> (HTTP), other protocols such as <a
+            href="https://en.wikipedia.org/wiki/File_Transfer_Protocol" title="File Transfer Protocol">File Transfer
+            Protocol</a> and the <a href="https://en.wikipedia.org/wiki/Gopher_protocol"
+            title="Gopher protocol">gopher protocol</a> were used to retrieve individual files from a server. These
             protocols offer a simple <a href="https://en.wikipedia.org/wiki/Directory_structure"
-                title="Directory structure">directory structure</a> which the user navigates and where they choose files
+            title="Directory structure">directory structure</a> which the user navigates and where they choose files
             to download. Documents were most often presented as plain text files without formatting or were encoded in
             <a href="https://en.wikipedia.org/wiki/Word_processor" title="Word processor">word processor</a> formats.
         </p>
+        <!-- <p>test</p> -->
+        
     </section>
-
+    
     <section id="overview">
         <h3>Overview
             <hr>
@@ -151,6 +167,11 @@
         <h3>Dynamic website
             <hr>
         </h3>
+        <div class="container">
+            <img class="image dynamic_website_image image" src="./images/Server-side_websites_programming_languages.PNG"
+                alt="dynamic_website_image">
+            <div class="caption">Server-side programming language usage in 2016.</div>
+        </div>
         <p>A dynamic website is one that changes or customizes itself frequently and automatically. Server-side dynamic
             pages are generated "on the fly" by computer code that produces the HTML (CSS are responsible for appearance
             and thus, are static files). There are a wide range of software systems, such as <a
@@ -174,6 +195,7 @@
                 title="Ruby (programming language)">Ruby</a> to make it faster and easier to create complex dynamic
             websites.
         </p>
+
         <p>A site can display the current state of a dialogue between users, monitor a changing situation, or provide
             information in some way personalized to the requirements of the individual user. For example, when the front
             page of a news site is requested, the code running on the webserver might combine stored HTML fragments with
@@ -258,13 +280,14 @@
                 </tr>
 
                 <td>
-                    <a href="https://en.wikipedia.org/wiki/Affiliate_network" title="Affiliate network">Affiliate network</a>
+                    <a href="https://en.wikipedia.org/wiki/Affiliate_network" title="Affiliate network">Affiliate
+                        network</a>
                 </td>
 
                 <td>A site, typically few in pages, whose purpose is to sell a third party's product. The seller
                     receives a commission for facilitating the sale.
                 </td>
-                
+
                 <td>
                 </td>
 
@@ -273,10 +296,19 @@
                         Affiliate agency
                     </td>
                     <td>
-                        Enabled <a href="https://en.wikipedia.org/wiki/Web_portal" title="Web portal">portal</a> that renders not only its custom <a href="https://en.wikipedia.org/wiki/Content_management_system" title="Content management system">CMS</a> but also syndicated content from other content providers for an agreed fee. There are usually three relationship tiers (see <a href="https://en.wikipedia.org/wiki/Affiliate_marketing" title="Affiliate marketing">Affiliate Agencies</a>).
+                        Enabled <a href="https://en.wikipedia.org/wiki/Web_portal" title="Web portal">portal</a> that
+                        renders not only its custom <a href="https://en.wikipedia.org/wiki/Content_management_system"
+                            title="Content management system">CMS</a> but also syndicated content from other content
+                        providers for an agreed fee. There are usually three relationship tiers (see <a
+                            href="https://en.wikipedia.org/wiki/Affiliate_marketing"
+                            title="Affiliate marketing">Affiliate Agencies</a>).
                     </td>
                     <td>
-                        <a href="https://en.wikipedia.org/wiki/Commission_Junction" title="Commission Junction">Commission Junction</a>, <a href="https://en.wikipedia.org/wiki/Advertisers" title="Advertisers">advertisers</a> like <a href="https://en.wikipedia.org/wiki/EBay" title="EBay">eBay</a>, or a consumer like <a href="https://en.wikipedia.org/wiki/Yahoo!" title="Yahoo!">Yahoo!</a>.
+                        <a href="https://en.wikipedia.org/wiki/Commission_Junction"
+                            title="Commission Junction">Commission Junction</a>, <a
+                            href="https://en.wikipedia.org/wiki/Advertisers" title="Advertisers">advertisers</a> like <a
+                            href="https://en.wikipedia.org/wiki/EBay" title="EBay">eBay</a>, or a consumer like <a
+                            href="https://en.wikipedia.org/wiki/Yahoo!" title="Yahoo!">Yahoo!</a>.
                     </td>
                 </tr>
 
@@ -284,31 +316,69 @@
                     <td>
                         <a href="https://en.wikipedia.org/wiki/Archive_site" title="Archive site">Archive site</a>
                     </td>
-                    
+
                     <td>
-                        Used to preserve valuable electronic content threatened with extinction. Two examples are: <a href="https://en.wikipedia.org/wiki/Internet_Archive" title="Internet Archive">Internet Archive</a>, which since 1996 has preserved billions of old (and new) web pages; and <a href="https://en.wikipedia.org/wiki/Google_Groups" title="Google Groups">Google Groups</a>, which in early 2005 was archiving over 845,000,000 messages posted to <a href="https://en.wikipedia.org/wiki/Usenet" title="Usenet">Usenet</a> news/discussion groups.
+                        Used to preserve valuable electronic content threatened with extinction. Two examples are: <a
+                            href="https://en.wikipedia.org/wiki/Internet_Archive" title="Internet Archive">Internet
+                            Archive</a>, which since 1996 has preserved billions of old (and new) web pages; and <a
+                            href="https://en.wikipedia.org/wiki/Google_Groups" title="Google Groups">Google Groups</a>,
+                        which in early 2005 was archiving over 845,000,000 messages posted to <a
+                            href="https://en.wikipedia.org/wiki/Usenet" title="Usenet">Usenet</a> news/discussion
+                        groups.
                     </td>
 
                     <td>
-                        <a href="https://en.wikipedia.org/wiki/Internet_Archive" title="Internet Archive">Internet Archive</a>, <a href="https://en.wikipedia.org/wiki/Google_Groups" title="Google Groups">Google Groups</a>
+                        <a href="https://en.wikipedia.org/wiki/Internet_Archive" title="Internet Archive">Internet
+                            Archive</a>, <a href="https://en.wikipedia.org/wiki/Google_Groups"
+                            title="Google Groups">Google Groups</a>
                     </td>
                 </tr>
             </tbody>
         </table>
 
         <p>
-            Some websites may be included in one or more of these categories. For example, a business website may promote the business's products, but may also host informative documents, such as <a href="https://en.wikipedia.org/wiki/White_paper" title="White paper">white papers</a>. There are also numerous sub-categories to the ones listed above. For example, a <a href="https://en.wikipedia.org/wiki/Porn" title="Porn">porn</a> site is a specific type of e-commerce site or business site (that is, it is trying to sell memberships for access to its site) or have social networking capabilities. A <a href="https://en.wikipedia.org/wiki/Fansite" title="Fansite">fansite</a> may be a dedication from the owner to a particular <a href="https://en.wikipedia.org/wiki/Celebrity" title="Celebrity">celebrity</a>. Websites are constrained by architectural limits (e.g., the computing power dedicated to the website). Very large websites, such as Facebook, Yahoo!, Microsoft, and Google employ many servers and <a href="https://en.wikipedia.org/wiki/Load_balancing_(computing)" title="Load balancing (computing)">load balancing</a> equipment such as <a href="https://en.wikipedia.org/wiki/Cisco_Systems" title="Cisco Systems">Cisco</a> Content Services <a href="https://en.wikipedia.org/wiki/Network_switch" title="Network switch">Switches</a> to distribute visitor loads over multiple computers at multiple locations.  As of early 2011, Facebook utilized 9 data centers with approximately 63,000 servers.
+            Some websites may be included in one or more of these categories. For example, a business website may
+            promote the business's products, but may also host informative documents, such as <a
+                href="https://en.wikipedia.org/wiki/White_paper" title="White paper">white papers</a>. There are also
+            numerous sub-categories to the ones listed above. For example, a <a
+                href="https://en.wikipedia.org/wiki/Porn" title="Porn">porn</a> site is a specific type of e-commerce
+            site or business site (that is, it is trying to sell memberships for access to its site) or have social
+            networking capabilities. A <a href="https://en.wikipedia.org/wiki/Fansite" title="Fansite">fansite</a> may
+            be a dedication from the owner to a particular <a href="https://en.wikipedia.org/wiki/Celebrity"
+                title="Celebrity">celebrity</a>. Websites are constrained by architectural limits (e.g., the computing
+            power dedicated to the website). Very large websites, such as Facebook, Yahoo!, Microsoft, and Google employ
+            many servers and <a href="https://en.wikipedia.org/wiki/Load_balancing_(computing)"
+                title="Load balancing (computing)">load balancing</a> equipment such as <a
+                href="https://en.wikipedia.org/wiki/Cisco_Systems" title="Cisco Systems">Cisco</a> Content Services <a
+                href="https://en.wikipedia.org/wiki/Network_switch" title="Network switch">Switches</a> to distribute
+            visitor loads over multiple computers at multiple locations. As of early 2011, Facebook utilized 9 data
+            centers with approximately 63,000 servers.
         </p>
         <p>
-            In February 2009, <a href="https://en.wikipedia.org/wiki/Netcraft" title="Netcraft">Netcraft</a>, an <a href="https://en.wikipedia.org/wiki/Website_monitoring" title="Website monitoring">Internet monitoring</a> company that has tracked Web growth since 1995, reported that there were 215,675,903 websites with domain names and content on them in 2009, compared to just 19,732 websites in August 1995. After reaching 1 billion websites in September 2014, a milestone confirmed by NetCraft in its October 2014 Web Server Survey and that Internet Live Stats was the first to announce—as attested by this tweet from the inventor of the World Wide Web himself, Tim Berners-Lee—the number of websites in the world have subsequently declined, reverting to a level below 1 billion. This is due to the monthly fluctuations in the count of inactive websites. The number of websites continued growing to over 1 billion by March 2016 and has continued growing since. Netcraft Web Server Survey in January 2020 reported that there are 1,295,973,827 websites and in April 2021 reported that there are 1,212,139,815 sites across 10,939,637 web facing computers, and 264,469,666 unique domains. However, 85 percent of all websites are reportedly inactive and only 10-15 percent are in use.
+            In February 2009, <a href="https://en.wikipedia.org/wiki/Netcraft" title="Netcraft">Netcraft</a>, an <a
+                href="https://en.wikipedia.org/wiki/Website_monitoring" title="Website monitoring">Internet
+                monitoring</a> company that has tracked Web growth since 1995, reported that there were 215,675,903
+            websites with domain names and content on them in 2009, compared to just 19,732 websites in August 1995.
+            After reaching 1 billion websites in September 2014, a milestone confirmed by NetCraft in its October 2014
+            Web Server Survey and that Internet Live Stats was the first to announce—as attested by this tweet from the
+            inventor of the World Wide Web himself, Tim Berners-Lee—the number of websites in the world have
+            subsequently declined, reverting to a level below 1 billion. This is due to the monthly fluctuations in the
+            count of inactive websites. The number of websites continued growing to over 1 billion by March 2016 and has
+            continued growing since. Netcraft Web Server Survey in January 2020 reported that there are 1,295,973,827
+            websites and in April 2021 reported that there are 1,212,139,815 sites across 10,939,637 web facing
+            computers, and 264,469,666 unique domains. However, 85 percent of all websites are reportedly inactive and
+            only 10-15 percent are in use.
         </p>
 
     </section>
 
     <section id="internet_user">
-        <h3>Internet user <hr></h3>
+        <h3>Internet user
+            <hr>
+        </h3>
         <p>
-            In 2009 there were reportedly 1.73 billion users worldwide with Asia taking leading with 738,257,230 users. Other internet users by region and continent include;
+            In 2009 there were reportedly 1.73 billion users worldwide with Asia taking leading with 738,257,230 users.
+            Other internet users by region and continent include;
         </p>
 
         <ul>
@@ -321,7 +391,21 @@
         </ul>
 
         <p>
-            Following modernization, better access to computers, growth in smartphones technology and use, social media popularity, and cheaper access to the internet, the number of internet users worldwide increased tremendously to 3.97 in 2019. This represents over 51 percent of the global population, with Asia remaining the continent with the most internet users as it accounts for 50 percent of the total number of internet users worldwide. China has the most internet users in the Asian continent, accounting for 25 percent of users in Asia. Also, China has more internet users than any other country in the world with over 934 million monthly users as at 2020. This number is more than double the number of internet users in the US which ranked third with 284 million monthly online users. India ranked second with about 687 million internet users accessing the internet either through mobile devices or computers. One of the most popular activities online is <a href="https://en.wikipedia.org/wiki/Social_networking_service" title="Social networking service">social networking</a>. In 2020, <a href="https://en.wikipedia.org/wiki/Facebook" title="Facebook">Facebook</a>, a social networking site founded by <a href="https://en.wikipedia.org/wiki/Mark_Zuckerberg" title="Mark Zuckerberg">Mark Zuckerberg</a> recorded over 2.7 billion monthly active users. This number accounts for over half of global internet users, making Facebook the most popular online social network.
+            Following modernization, better access to computers, growth in smartphones technology and use, social media
+            popularity, and cheaper access to the internet, the number of internet users worldwide increased
+            tremendously to 3.97 in 2019. This represents over 51 percent of the global population, with Asia remaining
+            the continent with the most internet users as it accounts for 50 percent of the total number of internet
+            users worldwide. China has the most internet users in the Asian continent, accounting for 25 percent of
+            users in Asia. Also, China has more internet users than any other country in the world with over 934 million
+            monthly users as at 2020. This number is more than double the number of internet users in the US which
+            ranked third with 284 million monthly online users. India ranked second with about 687 million internet
+            users accessing the internet either through mobile devices or computers. One of the most popular activities
+            online is <a href="https://en.wikipedia.org/wiki/Social_networking_service"
+                title="Social networking service">social networking</a>. In 2020, <a
+                href="https://en.wikipedia.org/wiki/Facebook" title="Facebook">Facebook</a>, a social networking site
+            founded by <a href="https://en.wikipedia.org/wiki/Mark_Zuckerberg" title="Mark Zuckerberg">Mark
+                Zuckerberg</a> recorded over 2.7 billion monthly active users. This number accounts for over half of
+            global internet users, making Facebook the most popular online social network.
         </p>
 
     </section>

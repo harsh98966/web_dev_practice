@@ -1,0 +1,67 @@
+a{
+    text-decoration: none;
+}
+
+section p {
+  font-family: sans-serif;
+  font-size: medium;
+  font-style: oblique;
+  text-align: justify;
+  line-height: 1.6;
+  display: inline;
+
+}
+section{
+    display: block;
+}
+.content h3 {
+  text-align: center;
+}
+
+.container{
+    float: right;
+    text-align: left;
+    border: 1px solid gray;
+    background-color: #f8f9fa;
+    font-size: small;
+    margin: 1%;
+    padding: 0.25%;
+}
+
+.container.image{
+    border: 1px solid gray;
+    display: block;
+    position: fixed;
+}
+
+
+.content {
+  border: 1px solid black;
+  width: fit-content;
+  padding-right: 1%;
+  background-color: #f8f9fa;
+  margin-top: 1%;
+  /* padding: 0% 1% 1% 0%; */
+}
+
+.content li{
+    line-height: 1.6;
+    list-style: numbers;
+}
+
+
+.dynamic_website_image {
+    height: 131px;
+    width: 220px;
+}
+
+.nasa_website{
+    height: 240px;
+    width: 240px;
+    /* height: 37.5%; */
+}
+
+.us_website{
+    height: 480px;
+    width: 240px;
+}
