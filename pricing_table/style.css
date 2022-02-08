@@ -207,4 +207,28 @@ button:first-of-type:hover{
     .main{
         flex-direction: row;
     }
+
+    .card{
+        border: none;
+        /* border-right: 1px solid; */
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        margin-left: none;
+        margin-right: none;
+        
+    }
+
+
+    .card:last-child{
+        border-left: 1px solid;    
+    }
+    .card:first-child{
+        border-right: 1px solid;
+    }
+
+    .banner{
+    }
+
+
 }
