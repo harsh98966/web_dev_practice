@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    height: 95vh;
+    background-color: #323232;
+}
+
+button{
+    background: none;
+    border: 2px solid;
+    border-radius: 0.4em;
+    height: 3em;
+    width: 10em;
+    font-size: 1.1em;
+    color: #FFF2F9;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+
+
+
+button:first-of-type:hover{
+    transform: translateY(-0.15em);
+    color: #FF5F7E;
+    background-color: #142F43;
+    box-shadow: 0 0.9em 0.5em -0.7em #FF5F7E;
+    cursor: pointer;
+}
+
+button:nth-of-type(2):hover{
+    transition: background-color 0.8s;
+    transition-timing-function: ease-in;
+    /* background-color: #19282F; */
+    background-color: #F76E11;
+}
