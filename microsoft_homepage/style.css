@@ -328,6 +328,9 @@ ul{
     .main-nav ul.show{
         display: flex;
     }
+    .showcase p{
+        display: none;
+    }
 }
 
 
@@ -348,7 +351,5 @@ ul{
         padding-bottom: 20px;
     }
 
-    .showcase p{
-        display: none;
-    }
+    
 }
